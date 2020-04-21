@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+.brasilContainer {
+  margin-bottom: 45px;
+}
+
+.brasilContainer li {
+  list-style-type: none;
+}
+
+.brasilContainer .title {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 20px;
+  color: #43425D;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.brasilContainer .textContentNumbers {
+  font-size: 38px;
+  font-weight: bold;
+  color: #43425D;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.brasilContainer .textContentTitle {
+  font-size: 18px;
+  color: #43425D;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.brasilContainer .suspeitas {
+  color: #83cece;
+  font-weight: bold;
+}
+
+.brasilContainer .casos {
+  color: #E59D23;
+  font-weight: bold;
+}
+
+.brasilContainer .curados {
+  color: #09C6A4;
+  font-weight: bold;
+}
+
+.brasilContainer .mortes {
+  color: #E60F0F;
+  font-weight: bold;
+}
+
+.brasilContainer .flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 560px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.brasilContainer .flex>div {
+  flex: 1 1 115px;
+}
+
+/* Cards! */
+
+.brasilContainer .cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  align-items: center;
+}
+
+.brasilContainer .cardTitle {
+  color: #43425D;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 15px;
+}
+
+.brasilContainer .card {
+  display: flex;
+  position: relative;
+  width: 450px;
+  height: 25px;
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.brasilContainer .contentCity {
+  position: absolute;
+  top: 20px;
+  font-size: 12px;
+}
+
+.brasilContainer .contentSuspects {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 35px;
+  left: 180px;
+  font-size: 12px;
+}
+
+.brasilContainer .contentCases {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 35px;
+  left: 260px;
+  font-size: 12px;
+}
+
+.brasilContainer .contentRefused {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 35px;
+  left: 340px;
+  font-size: 12px;
+}
+
+.brasilContainer .contentDeaths {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 35px;
+  left: 420px;
+  font-size: 12px;
+}
+
+/*Card Content Text*/
+
+.brasilContainer .textSuspects {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 180px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brasilContainer .textCases {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 260px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brasilContainer .textCurados {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 340px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brasilContainer .textMortes {
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 420px;
+  font-size: 18px;
+  font-weight: bold;
+}
